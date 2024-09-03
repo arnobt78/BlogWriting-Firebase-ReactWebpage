@@ -1,6 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## BlogWriting-Firebase-ReactWebpage
+
+BlogWriting is a simple Firebase React Web Application that mainly focuses on Firebase Setup, Configuration,  Authentication, Provider, and Firestore Database to retrieve the data from the database and then display, create, and delete the data, using React-Loading-Skeleton, TailwindCSS, JavaScript, HTML and deploy on Netfily.
+
+**The webpage can be seen by using this URL:** https://blogwriting-arnob.netlify.app
+
+## To Install Dependences
+
+Before launching this web application, be sure to install all required dependencies, which are listed in the package.json file.
+
+To install all dependences, run this command from your project folder: `npm install`
+
+## To Install NodeJS
+
+Make sure you have NodeJS installed in your machine first, The installation instructions are here: https://nodejs.org/en/
+
+## To Install React-Router
+
+Open up your terminal and bootstrap a new React app by: `npx create-react-app`
+
+Then go to that project folder, and write this command via terminal from your project folder: `npm i react-router-dom`
+
+(For more details, visit: https://reactrouter.com/en/main and https://www.npmjs.com/package/react-router-dom )
+
+## To Install Firebase
+
+Open up your terminal from your project folder and run: `npm install --save firebase@9.10`
+
+**Note:** You must install firebase version 9.10, beacuse the later versions can occure error while initializing firebase.
+
+(For more info, visit: https://www.npmjs.com/package/firebase )
+
+## To Setup .env File
+
+you must create an .env file in your project folder and save your API key or other sensetive info.
+
+Example: REACT_APP_API_KEY=your_firebase_api_key
+
+REACT_APP_AUTH_DOMAIN=your_firebase_auth_domain
+
+REACT_APP_PROJECT_ID=your_firebase_project_id
+
+REACT_APP_STORAGE_BUCKET=your_firebase_storage_bucket
+
+REACT_APP_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+
+REACT_APP_APP_ID=your_firebase_app_id
+
+(For more info, visit: https://www.npmjs.com/package/firebase )
+
+## To Deploy on Netlify (Frontend-Deployment)
+
+Visit: https://app.netlify.com/
+
+- Login using GitHub
+
+- Click on ‘Import from Git’
+
+- **Connect to Git provider > Github**
+
+- If the desired repository is not shown, click on ‘Configure the Netlify app on GitHub’
+
+- Repository Access > All Repository
+
+- Select the repository
+
+- Click on ‘Deploy site’
+
+**Note:** Deploying Process will take 2-5 minutes to be active on Netlify.
+
+**Error:** Check the log if you get an error > apply changes to the codebase > push them on ‘main’ branch.
+
+To set Environment Variable:
+
+- **Site settings > Build & deploy > Environment > Environment variables**
+
+https://docs.netlify.com/configure-builds/environment-variables/
+
+(Make sure to push new changes after setting env to make them effective)
+
+**Note:** You must add the domain name to your Firebase: Authentication > Settings > Authorized domains > Add domain
+
+To change domain name:
+
+- Change domain name on Netlify through ‘Site Settings’
+
+404 Page Not Found Error:
+
+- https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router
+
+- https://www.netlify.com/blog/2019/01/16/redirect-rules-for-all-how-to-configure-redirects-for-your-static-site/
+
+## To Install React-Loading-Skeleton
+
+Open up your terminal from your project folder and run: `npm install react-loading-skeleton`
+
+(For more information, visit: https://github.com/dvtng/react-loading-skeleton )
 
 ## Available Scripts
 
